@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    margin: 0%;
+}
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+}
+.navbar li img{
+    width: 50px;
+    margin-left: 40px;
+    height: 50px;
+    margin-top: -10px;
+}
+.navbar li{
+    float: left;
+    padding-top: 30px;
+    list-style: none;
+}
+.navbar li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    margin-left: 30px;
+}
+.so{
+    margin-left: 200px;
+}
+.so1 button{
+    background-color: white;
+    color: blue;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 40px;
+    height: 40px;
+    margin-top: -5px;
+    border: 1px solid rgb(160, 160, 226);
+}
+.so1 button a{
+    color: black;
+    font-size: 17px;
+    margin-left: -4px;
+}
+.so2 button{
+    background-color: #3271E6;
+    width: 140px;
+    border: none;
+    margin-top: -5px;
+    margin-left: 15px;
+    height: 40px;
+    border-radius: 5px;
+}
+.so2 button a{
+    color: white;
+    font-size: 17px;
+    margin-left: -4px;
+}
+/* navbar1 */
+.navbar1{
+    width: 100%;
+    margin-top: 80px;
+    height: 30px;
+    background-color: #3271E6;
+    text-align: center;
+}
+.navbar1 li{
+    list-style: none;
+    float: left;
+    padding-top: 3px;
+}
+.navbar1 li a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    color: white;
+}
+.so3{
+    margin-left: 140px;
+}
+/* navbar2 */
+.navbar2{
+    margin-top: 140px;
+    margin-left: 100px;
+}
+.navbar2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 260%;
+}
+.navbar2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar2 input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+/* navbar3 */
+.navbar3{
+    margin-top: -300px;
+    margin-left: 560px;
+}
+.navbar3 img{
+    width: 560px;
+    height: 400px;
+}
+/* navbar4 */
+.navbar4{
+   text-align: center;
+   margin-top: 100px;
+}
+.navbar4 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar4 img{
+    width: 200px;
+    margin: 20px;
+}
+/* navbar5 */
+.navbar5{
+    width: 100%;
+    height: 250px;
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(241, 241, 241);
+}
+.navbar5 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+.navbar5 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar5 a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(70, 70, 70);
+}
+/* navbar6 */
+.navbar6{
+    text-align: center;
+    margin-top: 120px;
+}
+.navbar6 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+.navbar6 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.navbar6 img{
+    width: 900px;
+    height: 500px;
+    margin-top: 30px;
+}
+/* navbar7 */
+.navbar7{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.navbar7 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+.navbar7 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* navbar8 */
+.navbar8{
+    margin-top: -230px;
+    margin-left: 500px;
+}
+.navbar8 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* navbar9 */
+.navbar9{
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(236, 215, 255);
+}
+.navbar9 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.navbar9 img{
+    width: 160px;
+}
+.navbar9 button{
+    width: 240px;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    background-color: #3271E6;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* look */
+.look{
+    width: 100%;
+    height: 600px;
+    background-color: #FAF8F4;
+    padding-top: 60px;
+}
+.look h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 300px;
+}
+.look p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: 300px;
+    color: rgb(79, 79, 79);
+}
+/* look1 */
+.look1{
+    margin-top: -533px;
+    margin-left: 250px;
+}
+/* look2 */
+.look2{
+    margin-top: -433px;
+    margin-left: 500px;
+}
+</style>
+<body>
+    <div class="navbar">
+        <li><img src="	https://cdn-icons-png.flaticon.com/128/12133/12133548.png"></li>
+        <li><a href="">Videos</a></li>
+        <li><a href="">Websites</a></li>
+        <li><a href="">Logos</a></li>
+        <li><a href="mockup.html">Mockups</a></li>
+        <li><a href="">Designs</a></li>
+        <li><a href="">Explore AI</a></li>
+        <li class="so"><a href="">Pricing</a></li>
+        <li><a href="">Learn</a></li>
+        <li class="so1"><button type="button"><a href="">Sign In</a></button></li>
+        <li class="so2"><button type="button"><a href="">Try for Free</a></button></li>
+    </div>
+    <div class="navbar1">
+        <li class="so3"><a href="">All</a></li>
+        <li><a href="">Business</a></li>
+        <li><a href="">Lifestyle</a></li>
+        <li><a href="">Digital Business Cards</a></li>
+        <li><a href="">Event</a></li>
+        <li><a href="">Non-Profit</a></li>
+        <li><a href="">Creative</a></li>
+        <li><a href="">Coming soon</a></li>
+    </div>
+    <div class="navbar2">
+        <h1>Customizable<br>
+            website templates<br>
+            for any purpose</h1>
+        <p>Build your stunning website today using high-quality<br> website templates. Whatever your business or style, the ideal<br> template is waiting for you in our collection.        </p>
+        <input type="text">
+        <div class="navbar3">
+            <img src="	https://static.rfstat.com/renderforest/images/website_maker_images/template-image.png">
+        </div>
+    </div>
+    <div class="navbar4">
+        <h1>Customers Love Us        </h1>
+        <img src="https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/product-logo@2x.png">
+        <img src="https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/product-logo2@2x.png        ">
+        <img src="https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/product-logo3@2x.png">
+        <img src="https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/product-logo4@2x.png">
+    </div>
+    <div class="navbar5">
+        <p>For what it does and for the cost, it cannot be<br>beaten. If you're looking for short, easy-to-make<br>videos for your projects this is the place to go.</p>
+        <h3>James B.</h3>
+        <a href="">E-Learning,1-10 employees</a>
+    </div>
+    <div class="navbar6">
+        <h1>Need one project only?        </h1>
+        <p>Create high quality products        </p>
+        <img src="	https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/premium__banner@2x.webp">
+    </div>
+    <div class="navbar7">
+        <h1>Frequently<br> Asked Questions        </h1>
+        <p>More questions? Reach out to our support team.        </p>
+        <div class="navbar8">
+            <h3>Will my subscription plan renew automatically?            </h3>
+            <h3>Can I upgrade my current plan whenever I wish?            </h3>
+            <h3>Will I be able to export longer videos if I subscribe?            </h3>
+            <h3>What is migration, and why was my plan migrated to another?            </h3>
+            <h3>Can I pay any annual plan month by month?            </h3>
+            <h3>How can I upgrade my storage?            </h3>
+            <h3>How can I create unlimited 4K videos?            </h3>
+        </div>
+    </div>
+    <div class="navbar9">
+        <p>More than <b>20 million</b> people across<br> <b>100,000</b> companies choose Renderforest!        </p>
+        <img src="https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/stanford_logo@2x.png">
+        <img src="	https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/meta_logo@2x.png">
+        <img src="	https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/booking.com_logo@2x.png">
+        <img src="	https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/nike_logo@2x.png">
+        <img src="https://static.rfstat.com/renderforest/images/v2/pricing_page/pricing_new/hootsuite_logo@2x.png"><br>
+        <button type="button">Get Started For Free</button>
+    </div>
+    <div class="look">
+        <h3>Company        </h3>
+        <p>About Us        </p>
+        <p>Contact Us        </p>
+        <p>Careers        </p>
+        <p>Help and support        </p>
+        <p>Affiliate Program        </p>
+        <p>Privacy policy        </p>
+        <p>Terms and Conditions        </p>
+        <p>Sitemap        </p>
+        <p>Partners Program        </p>
+        <p>Ambassadors Program        </p>
+        <h3>AI Tools        </h3>
+        <p>AI Video Generator        </p>
+        <p>AI Animation Generator        </p>
+        <p>AI Video Editor        </p>
+        <p>Text to Video AI        </p>
+        <p>AI Website Builder        </p>
+        <p>Business Name Generator        </p>
+        <div class="look1">
+            <h3>Resources            </h3>
+            <p>Branding Tools            </p>
+            <p>Blog</p>
+            <p>Video Making Tools            </p>
+            <p>Free Music Visualizer            </p>
+            <p>YouTube Intro Maker            </p>
+            <p>Animation Maker            </p>
+            <p>Logo Animation            </p>
+            <p>Sound Wave Generator            </p>
+            <p>Audio Waveform Generator            </p>
+            <p>Cartoon Maker            </p>
+            <p>Mobile App Promo Videos            </p>
+            <p>Slideshow Maker            </p>
+            <p>Intro Maker            </p>
+            <p>Animated Text Generator            </p>
+        </div>
+        <div class="look2">
+            <h3>Video Templates            </h3>
+            <p>Intro Maker            </p>
+            <p>Animation Videos            </p>
+            <p>Music Visualization            </p>
+            <p>Video Editing Templates            </p>
+            <p>Invitation Videos            </p>
+            <p>Slideshow Templates            </p>
+            <p>Presentation Videos            </p>
+            <p>Social Media Videos            </p>
+            <p>Video Ad Templates            </p>
+            <p>Sales Videos            </p>
+            <h3>Categories            </h3>
+            <p>Video            </p>
+            <p>Logo            </p>
+            <p>Graphic design</p>            
+            <p>Website            </p>
+            <p>Mockup            </p>
+        </div>
+    </div>
+</body>
+</html>
